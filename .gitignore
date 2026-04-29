@@ -1,0 +1,48 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Test files
+coverage/
+.nyc_output/
+
+# Local development
+*.local
+
+# Cache
+.cache/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~

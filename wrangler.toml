@@ -1,0 +1,19 @@
+name = "prestige-advisory-site"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "echo 'Static files ready in dist folder'"
+cwd = "."
+watch_dir = "dist"
+
+[[build.upload.rules]]
+type = "ESModule"
+globs = ["**/*.js"]
+
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.css"]
+
+[build.upload.main]
+type = "Text"
+name = "index.html"
